@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+    color: #06070E
+}
+
+#header {
+    margin-top: 2%;
+    font-size: calc(100% + 1vw);
+    margin-right: 20%;
+    color: #8c9c87;
+}

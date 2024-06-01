@@ -1,28 +1,37 @@
 #description {
-    margin-top: 10%;
+    margin-top: 5%;
     opacity: 0;
     animation: fade-in 2s ease forwards;
     text-align: center;
     color: #92aa83;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #b0bea9;
+
     @media only screen and (max-device-width: 750px) {
-        margin-top: 40%;
+        margin-top: 20%;
     }
 }
 
+h1 {
+    font-size: calc(100% + 2vw);
+}
+
+h2 {
+    font-size: calc(100% + 1vw);
+}
+
 #name {
-    animation: fade-in 4s ease forwards;
-    color: #8c9c87;
+    animation: fade-in 0.5s ease forwards;
+    color: #29524A;
 }
 
 #duck {
     animation: fade-in 6s ease forwards;
-    width: 142px;
-    height: 142px;
+    width: 130px;
+    height: 130px;
+
     @media only screen and (max-device-width: 750px) {
-        max-width: 10%;
+        max-width: 20%;
     }
+
     height: auto;
     object-fit: cover;
 }
@@ -36,4 +45,54 @@
         opacity: 1;
     }
 }
-/* Additional CSS rules can be added below */
+
+#buttons {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    /* center the entire grid horizontally */
+    align-items: center;
+    /* center the entire grid vertically */
+    column-gap: 3vw;
+    animation: emphasize 0.4s ease-in-out;
+}
+
+@keyframes emphasize {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.box {
+    color: #29524A;
+    background-color: #E9BCB7;
+    border: none;
+    border-radius: 5%;
+    width: 12vw; /* Fixed width using viewport width units */
+    height: 5vw; /* Fixed height using viewport width units */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    margin: 0 auto; /* Center the box horizontally */
+
+    @media only screen and (max-device-width: 750px) {
+        width: 20vw;
+        height: 10vw;
+        font-size: 3vw;
+    }
+}
+
+.box:hover {
+    background-color: #d4a6a0; /* Slightly darker shade for hover background */
+    color: #1f4038; /* Slightly darker shade for hover text */
+}
