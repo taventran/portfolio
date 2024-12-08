@@ -149,6 +149,7 @@ export const banner = (args?: string[]): string => {
    ╚═╝   ╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═══╝       ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary and see relevant stuff about me.
+Type 'resume' to see my resume.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
 };
