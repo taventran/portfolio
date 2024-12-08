@@ -1,7 +1,7 @@
 # Hello Visitor!
 
 My name is Taven Tran
-I am currently a SWE at JP Morgan.
+I am currently a SWE at JPMorgan.
 My past experiences include
 interning at JPMorgan and Halliburton.
 
